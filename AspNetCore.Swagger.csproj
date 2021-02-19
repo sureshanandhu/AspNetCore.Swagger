@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>7e98ccc7-f982-4c06-93ac-d6aabdb1c716</UserSecretsId>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8" />
+    <PackageReference Include="MySql.Data" version="8.0.21" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" version="8.0.21" />
+  </ItemGroup>
+
+</Project>
