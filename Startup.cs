@@ -27,7 +27,7 @@ namespace AspNetCore.Swagger.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             //initialize Aurora DBContext
-            services.AddDbContext<CustomerContext>(opts => opts.UseMySQL(Configuration["ConnectionString:OdsMdmDB"]));
+            services.AddDbContext<CustomerContext>(opts => opts.UseMySQL(Configuration["ConnectionString:CustomerDB"]));
             //Mapping Repository
             services.AddScoped<IDataRepository<Customer>, CustomerManager>();
 
